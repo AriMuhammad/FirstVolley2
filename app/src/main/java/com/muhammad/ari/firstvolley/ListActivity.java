@@ -1,13 +1,10 @@
 package com.muhammad.ari.firstvolley;
 
+import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
-import android.view.View;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -24,7 +21,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import static com.muhammad.ari.firstvolley.Url.Url.url;
 import static com.muhammad.ari.firstvolley.Url.Url.urlData;
 
 public class ListActivity extends AppCompatActivity {
