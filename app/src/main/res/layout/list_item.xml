@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_list"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/txt_nama"
+                android:layout_width="50000dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_gambar"
+                android:text="disini buat nama"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:id="@+id/txt_profesi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disini buat profesi"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
